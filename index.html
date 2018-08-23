@@ -52,7 +52,7 @@
           web3 = new Web3(web3.currentProvider);
           console.log("existing web3: provider " + typeof web3);
       } else {
-          web3 = new Web3(new Web3.providers.HttpProvider("https://rinkeby.infura.io/access_token"));
+          web3 = new Web3(new Web3.providers.HttpProvider("https://ropsten.infura.io/"));
           console.log("new provider " + web3);
       }
       // Set Account
