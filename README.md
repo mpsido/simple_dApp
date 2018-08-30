@@ -1,5 +1,7 @@
 # tiny dApp sandbox
 
+Metamask refuses to be a "provider" for "non encrypted" webpages. So we need to serve an https webpage to enable blockchain transactions.
+
 ## Generate https certificates
 
 Generate the encryption keys for https using openssl:
